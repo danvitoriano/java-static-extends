@@ -1,4 +1,4 @@
-package heranca;
+package abstrata;
 
 
 // POLIMORFISMO
