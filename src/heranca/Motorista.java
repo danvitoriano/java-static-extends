@@ -21,8 +21,15 @@ public class Motorista extends Funcionario {
 //	SEGUNDA PARTE - SOBREESCRITA DE MÉTODO
 	
 //	@Override
-//	void imprimirFuncionario() {
-//		System.out.println("ola bebe");
+	void imprimirFuncionario() {
+		System.out.println("ola bebe");
+		System.out.println("numero: " + numero);
+		System.out.println("nome: " + nome);
+	}
+	
+	// POLIMORFISMO
+//	int getBonificacao() {
+//		return 40;
 //	}
 	
 	void imprimirHabilitacao() {

@@ -5,7 +5,7 @@ public class Funcionario {
 	protected String nome;
 	
 	Funcionario(){
-		System.out.println("oi");
+//		System.out.println("oi");
 	}
 	
 	Funcionario(String xNome){
@@ -15,6 +15,10 @@ public class Funcionario {
 	void iniciarFuncionario(int xNumero, String xNome) {
 		numero = xNumero;
 		nome = xNome;
+	}
+	
+	int getBonificacao() {
+		return 10;
 	}
 	
 	void imprimirFuncionario() {
